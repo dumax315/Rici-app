@@ -5,7 +5,7 @@ let country = countires[Math.floor(Math.random() * 246)][1];
 let imageUrl = "http://www.geognos.com/api/en/countries/flag/"+country+".png";
 document.getElementById("imageToSet").src = imageUrl
 
-document.getElementById ("btnsave").addEventListener ("click", checkAnswer, false);
+document.getElementById("btnsave").addEventListener ("click", checkAnswer, false);
 let trys = 6
 function checkAnswer() {
   let x = document.getElementById("myText").value;
